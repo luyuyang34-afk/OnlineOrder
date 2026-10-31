@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:8080/login
+method: POST
+body:
+  type: urlencoded
+  content:
+    username: abc@mail.com
+    password: "123456"
+order: 2000

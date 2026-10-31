@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/logout
+method: POST
+body:
+  type: json
+  content: ""
+order: 3000

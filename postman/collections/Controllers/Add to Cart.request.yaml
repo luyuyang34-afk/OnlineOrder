@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:8080/cart
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "menu_id": 4
+    }
+order: 3000

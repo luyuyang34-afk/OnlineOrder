@@ -1,0 +1,8 @@
+$kind: http-request
+name: http://localhost:8080/hello
+description: ""
+url: http://localhost:8080/hello?name=kobe
+method: GET
+queryParams:
+  name: kobe
+order: 1791653671836
